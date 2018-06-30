@@ -4,14 +4,14 @@ FIFA World Cup Draws
 ### Enviroment versions required:
 Python: 2.7  
 
+### Algorithm approach
+Implementing DPLL (Davis–Putnam–Logemann–Loveland) algorithm to generate groups of countries satisfying given constraints. 
+
 ### Given constraints:
 The draw must satisfy all of the following constraints:  
 _C1._ No group can have more than one team from any pot.  
 _C2._ No group can have more than one team from any continental confederation, with the exception of UEFA, which can have up to two teams in a group.  
 _C3._ There is no limit (minimum or maximum) on the number of teams in each group.  
-
-### Algorithm implementation approach
-Using DPLL (Davis–Putnam–Logemann–Loveland) algorithm to generate groups of countries satisfying given constraints. 
 
 ### Python command for executing SON Algorithm
 
