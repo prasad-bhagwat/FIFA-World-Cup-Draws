@@ -4,7 +4,7 @@ FIFA World Cup Draws
 ### Enviroment versions required:
 Python: 2.7  
 
-### Algorithm approach
+### Algorithm approach:
 Implementing DPLL (Davis–Putnam–Logemann–Loveland) algorithm to generate groups of countries satisfying given constraints. 
 
 ### Given constraints:
