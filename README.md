@@ -13,7 +13,7 @@ _C1._ No group can have more than one team from any pot.
 _C2._ No group can have more than one team from any continental confederation, with the exception of UEFA, which can have up to two teams in a group.  
 _C3._ There is no limit (minimum or maximum) on the number of teams in each group.  
 
-### Python command for executing SON Algorithm
+### Python command for executing DPLL Algorithm
 
 * * *
 
