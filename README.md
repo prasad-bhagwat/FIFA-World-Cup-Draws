@@ -13,7 +13,7 @@ _C1._ No group can have more than one team from any pot.
 _C2._ No group can have more than one team from any continental confederation, with the exception of UEFA, which can have up to two teams in a group.  
 _C3._ There is no limit (minimum or maximum) on the number of teams in each group.  
 
-### Python command for executing SON Algorithm
+### Python command for executing DPLL Algorithm
 
 * * *
 
@@ -33,10 +33,10 @@ Example usage of the above command is as follows:
 Note : _Output file_ named _‘output.txt’_ is generated at the location from where the program is run.
 
 ### Input file format:
-_C1. GROUP COUNT:_ The number of groups for the FIFA World Cup draw.  
-_C2. POT COUNT:_ ​The number of pots for the FIFA World Cup draw.  
-_C3. POTS DIVISION:_ ​It contains _POTS COUNT_ lines, where the first line is a comma-separated list of the teams belonging to Pot 1, and the following lines show the teams of Pots 2 to _POTS COUNT_, respectively.  
-_C4. TEAMS CONFEDERATION:_ It contains 6 lines where each line begins with the name of one of the ​ continental confederations (AFC, CAF, CONCACAF, CONMEBOL, OFC, or UEFA) followed by a colon “:” and then the names of the teams from this continental confederation separated by commas “,”. If there is no team from a continental confederation, it is denoted by “None”.  
+_GROUP COUNT:_ The number of groups for the FIFA World Cup draw.  
+_POT COUNT:_ ​The number of pots for the FIFA World Cup draw.  
+_POTS DIVISION:_ ​It contains _POTS COUNT_ lines, where the first line is a comma-separated list of the teams belonging to Pot 1, and the following lines show the teams of Pots 2 to _POTS COUNT_, respectively.  
+_TEAMS CONFEDERATION:_ It contains 6 lines where each line begins with the name of one of the ​ continental confederations (AFC, CAF, CONCACAF, CONMEBOL, OFC, or UEFA) followed by a colon “:” and then the names of the teams from this continental confederation separated by commas “,”. If there is no team from a continental confederation, it is denoted by “None”.  
 
 _Example input file:_  
   
