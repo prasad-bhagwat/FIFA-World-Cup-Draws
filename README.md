@@ -5,7 +5,7 @@ FIFA World Cup Draws
 Python: 2.7  
 
 ### Algorithm approach:
-Implementing DPLL (Davis–Putnam–Logemann–Loveland) algorithm to generate groups of countries satisfying given constraints. 
+Implementing DPLL (Davis–Putnam–Logemann–Loveland) algorithm to generate groups of countries satisfying given constraints by converting given input into Conjunctive Normal Form(CNF). 
 
 ### Given constraints:
 The draw must satisfy all of the following constraints:  
